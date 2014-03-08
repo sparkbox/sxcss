@@ -9,3 +9,12 @@
 .btn-secondary {
   background-color: #ffbc5f;
 }
+
+.clearfix &:before, &:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix &:after {
+  clear: both;
+}
