@@ -1,3 +1,7 @@
 .body [
   bgcolor(black)
 ]
+
+.btn {
+  padding: 10px;
+}
