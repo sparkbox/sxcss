@@ -19,3 +19,11 @@
 .clearfix &:after {
   clear: both;
 }
+
+.l-fixed-br {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+
+  margin: 5px;
+}
