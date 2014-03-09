@@ -7,3 +7,36 @@
 
   margin: 5px;
 }
+
+.t-center {
+  /* center text */
+  text-align: center;
+}
+
+.l-container {
+  margin: 0 auto;
+  width: 95%;
+  max-width: 800px;
+}
+
+.l-half {
+  width: 48%;
+  float: left;
+}
+
+.l-half:nth-child(odd) {
+  margin-right: 2%;
+}
+
+.l-half:nth-child(even) {
+  margin-left: 2%;
+}
+
+.l-s {
+  margin-bottom: 1em;
+}
+
+.l-s_top {
+  margin-top: 1em;
+}
+
