@@ -3,6 +3,11 @@ $(function() {
     var shareText = '@sxblurthelines Done with this challenge! ' + document.URL;
     var shareHref = 'http://twitter.com/home?status=' + shareText;
     var allDone = '<a href="' + shareHref + '" class="btn btn-primary l-fixed-br">All Done!</a>';
-    $('body').append($('<div>').html(allDone));
+    var $allDone = $(allDone);
+    $('body').append($allDone);
+
+    $($allDone).on('click', function(){
+      window.location.href = shareHref;
+    });
   }
 });
