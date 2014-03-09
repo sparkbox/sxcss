@@ -1,24 +1,4 @@
-.btn {
-  display: inline-block;
-  padding: 10px;
-}
-
-.btn-primary {
-  background-color: #688bd2;
-}
-
-.btn-secondary {
-  background-color: #ffbc5f;
-}
-
-.clearfix &:before, &:after {
-  content: " ";
-  display: table;
-}
-
-.clearfix &:after {
-  clear: both;
-}
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css");
 
 .l-fixed-br {
   position: fixed;
